@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Ulex.TabCompletion</id>
+    <version>1.0</version>
+    <title>Tab Completion for ReSharper</title>
+    <authors>Alexander Ulitin</authors>
+    <description>
+      Press Tab key to activate basic completion and double Tab to complete instead of Control+Space;Tab
+    </description>
+    <releaseNotes>
+      initial release
+    </releaseNotes>
+    <copyright>Alexander Ulitin</copyright>
+    <tags>code completion tab</tags>
+    <projectUrl>https://github.com/ulex/TabCompletion</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/ulex/TabCompletion/master/icon.png</iconUrl>
+    <dependencies>
+      <dependency id="Wave" version="[11.0, 12.0)"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Ulex.TabCompletion.dll" target="DotFiles\Ulex.TabCompletion.dll"/>
+  </files>
+</package>
