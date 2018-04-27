@@ -1,4 +1,4 @@
-$resharper_version = "2017.3.0"
+$resharper_version = "2018.1.0"
 
 $ErrorActionPreference = "Stop"
 

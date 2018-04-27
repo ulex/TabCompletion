@@ -24,8 +24,8 @@ namespace Ulex.TabCompletion
     public InvokeCompletionHandler()
       : base(TextControlActions.TAB_ACTION_ID)
     {
-    }
-
+    } 
+    
     public override bool Update(IDataContext context, ActionPresentation presentation, DelegateUpdate nextUpdate)
     {
       var textControl = context.GetData(TextControlDataConstants.TEXT_CONTROL);
